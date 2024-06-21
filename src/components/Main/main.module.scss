@@ -1,15 +1,9 @@
 .container {
   text-align: center;
-  padding: 32px 0 160px 0;
+  padding: 48px 24px;
+  flex: 1;
   background-color: black;
-}
-.name, .title {
-  font-size: 28px;
-}
-.name {
-  font-weight: 500;
-}
-.title {
-  font-weight: 300;
-  color: #FFEA00;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
