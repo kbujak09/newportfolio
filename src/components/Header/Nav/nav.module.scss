@@ -2,3 +2,15 @@
   display: flex;
   gap: 20px;
 }
+
+@media (min-width: 600px) {
+  .container {
+    gap: 32px;
+  }
+}
+
+@media (min-width: 900px) {
+  .container {
+    gap: 48px;
+  }
+}

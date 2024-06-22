@@ -1,9 +1,15 @@
 .container {
   text-align: center;
-  padding: 48px 24px;
+  padding: 36px 0 48px 0;
   flex: 1;
   background-color: black;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+@media (min-width: 900px) {
+  .container {
+    padding: 96px 0;
+  }
 }

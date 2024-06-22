@@ -3,4 +3,18 @@
   color: white;
   font-weight: 500;
   letter-spacing: 0.3px;
+  cursor: pointer;
+}
+
+@media (min-width: 600px) {
+  .text {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 900px) {
+  .text {
+    font-size: 20px;
+    letter-spacing: 1.2px;
+  }
 }

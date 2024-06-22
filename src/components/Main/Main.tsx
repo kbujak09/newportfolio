@@ -12,7 +12,7 @@ export default function Main() {
       </div>
     );
   };
-    `;
+  `;
 
   return (
     <main className={styles.container}>
