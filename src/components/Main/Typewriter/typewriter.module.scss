@@ -4,6 +4,7 @@
   line-height: 32px;
   font-weight: 500;
   font-size: 20px;
+  margin: 0;
 }
 
 @media (min-width: 600px) {
@@ -17,6 +18,7 @@
   .container {
     font-size: 36px;
     line-height: 48px;
+    height: 336px;
     letter-spacing: 2.4px;
     font-weight: 600;
     word-spacing: 8px;
