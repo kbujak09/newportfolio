@@ -1,3 +1,36 @@
 .container {
-  height: 100dvh;
+  height: 100lvh;
+  background-color: black;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
+.text {
+  line-height: 30px;
+  letter-spacing: 0.8px;
+  word-spacing: 2px;
+  font-size: 1.6rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (min-width: 600px) {
+  .text {
+    font-size: 2.4rem;
+    line-height: 40px;
+  }
+}
+@media (min-width: 900px) {
+  .text {
+    font-size: 3.2rem;
+    line-height: 56px;
+    letter-spacing: 1.7px;
+    font-weight: 400;
+    word-spacing: 2px;
+    margin: 0 40% 0 64px;
+  }
+}
+

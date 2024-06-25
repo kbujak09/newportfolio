@@ -1,5 +1,7 @@
+@import '../../../vars.scss';
+
 .name, .title {
-  font-size: 32px;
+  font-size: 3.2rem;
   text-align: left;
 }
 .name {
@@ -7,17 +9,18 @@
 }
 .title {
   font-weight: 300;
-  color: #FFEA00;
+  color: $yellow;
 }
 
 @media (min-width: 600px) {
   .name, .title {
-    font-size: 40px;
+    font-size: 4rem;
   }
 }
 
 @media (min-width: 900px) {
   .name, .title {
-    font-size: 64px;
+    font-size: 7.2rem;
+    text-align: right;
   }
 }
