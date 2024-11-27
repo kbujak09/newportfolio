@@ -14,5 +14,5 @@ export default function Typewritter({text, speed}: typewriterProps) {
     <pre className={styles.container}>
       {displayedText}
     </pre>
-  )
+  );
 };

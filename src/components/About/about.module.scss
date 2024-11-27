@@ -1,3 +1,11 @@
 .container {
   height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  transition: background-color 1s ease;
+}
+.whiteBg {
+  background-color: white;
 }

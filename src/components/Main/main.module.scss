@@ -4,13 +4,13 @@
   background-color: black;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   box-sizing: border-box;
-  padding: 36px 0;
+  padding: 72px 0 36px 0;
+  gap: 10dvh;
 }
 
 @media (min-width: 900px) {
   .container {
-    padding: 72px 0;
+    padding: 96px 0 72px 0; 
   }
 }
