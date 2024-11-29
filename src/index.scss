@@ -12,6 +12,9 @@ html, body {
   position: relative;
   box-sizing: border-box;
   min-height: 100vh;
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
 }
 #projects {
   height: 100dvh;
@@ -20,9 +23,9 @@ html, body {
   padding: $padding-mobile;
   background-color: black;
   color: white;
+  min-height: calc(var(--vh, 1px) * 100);
   display: flex;
   flex-direction: column;
-  height: 100dvh;
 }
 
 @media (min-width: 600px) {
