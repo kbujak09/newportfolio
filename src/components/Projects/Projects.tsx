@@ -2,6 +2,9 @@ import styles from './projects.module.scss';
 
 const Projects = () => {
   return (
-    <div>Projects</div>
+    <div className={styles.container}>
+    </div>
   );
 };
+
+export default Projects;

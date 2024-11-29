@@ -1,0 +1,27 @@
+.container {
+  text-align: left;
+  letter-spacing: 1px;
+  line-height: 32px;
+  font-weight: 500;
+  font-size: 20px;
+  margin: 0;
+  height: 336px;
+  color: rgb(255, 255, 255);
+}
+
+@media (min-width: 600px) {
+  .container {
+    font-size: 32px;
+    line-height: 44px;
+  }
+}
+
+@media (min-width: 900px) {
+  .container {
+    font-size: 48px;
+    line-height: 64px;
+    height: 336px;
+    letter-spacing: 2.4px;
+    word-spacing: 8px;
+  }
+} 

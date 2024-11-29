@@ -1,0 +1,27 @@
+@import '../../vars.scss';
+
+.container {  
+  padding: $padding-mobile;
+  background-color: black;
+  color: white;
+  min-height: calc(var(--vh, 1px) * 100);
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+.none {
+  opacity: 1;
+}
+
+@media (min-width: 600px) {
+  .container {
+    padding: $padding-tablet;
+  }
+}
+
+@media (min-width: 900px) {
+  .container {
+    padding: $padding-desktop;
+  }
+}
